@@ -11,6 +11,7 @@
       </a>
     </td>
   </tr>
+  74789 
 </table>
 # Lección 5: Javascript IV (Objetos)
 
@@ -90,6 +91,10 @@ Si queremos eliminar una propiedad, podemos hacerlo usando la palabra clave `del
 ```javascript
 const nuevoObjeto = {
     eliminarEstaPropiedad: true
+
+
+
+
 };
 
 delete nuevoObjeto.eliminarEstaPropiedad;
@@ -113,7 +118,7 @@ nuevoObjeto.decirHola(); //Hola a todo el mundo!
 
 ## Bucles `for…in`
 
-A veces queremos iterar sobre cada par clave-valor en nuestro objeto. Con las matrices, utilizamos un estándar para el bucle y una variable de número de índice. Los objetos no contienen índices numéricos, por lo que el bucle estándar no funcionará para los objetos. Javascript tiene un segundo tipo de bucle for integrado llamado "_for ... in loop_". Es una sintaxis ligeramente diferente, comienza igual pero entre paréntesis declararemos una variable, la palabra clave `in` y el nombre del objeto. Esto recorrerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves. Podemos usar esta clave, y la notación de corchetes, en nuestro bucle for para acceder al valor asociado con esa clave.
+A veces queremos iterar sobre cada par clave-valor en nuestro objeto. Cqon las matrices, utilizamos un estándar para el bucle y una variable de número de índice. Los objetos no contienen índices numéricos, por lo que el bucle estándar no funcionará para los objetos. Javascript tiene un segundo tipo de bucle for integrado llamado "_for ... in loop_". Es una sintaxis ligeramente diferente, comienza igual pero entre paréntesis declararemos una variable, la palabra clave `in` y el nombre del objeto. Esto recorrerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves. Podemos usar esta clave, y la notación de corchetes, en nuestro bucle for para acceder al valor asociado con esa clave.
 
 ```javascript
 const usuario = {
@@ -216,6 +221,7 @@ En este caso, _no depende_ donde hayamos definido la función, lo único que imp
 ``` javascript
 > var o = {prop: 37};
 
+ 
 // declaramos la función
 > function loguea() {
     return this.prop;
