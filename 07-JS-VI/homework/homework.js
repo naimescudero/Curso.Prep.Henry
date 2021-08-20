@@ -38,6 +38,9 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
+  // array.forEach(function(elemento)){
+  // cb(elemento)
+   //}
   for (let i= 0; i < array.length; i++){
     cb(array[i]);
   }
@@ -60,6 +63,13 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  // var nuevoarray=array.filter(function(elemento)){
+  //  if (elemento[0]=== "a"){
+  // return elemento
+  // }
+  //})
+  //    return nuevoarray
+  // }
    var nuevoarray= []
     for (i=0; i < array.length; i++){
     if (array [i][0]=== "a"){
