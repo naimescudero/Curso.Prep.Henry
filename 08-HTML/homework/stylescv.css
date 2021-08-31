@@ -1,0 +1,8 @@
+body{
+  
+    font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0 auto;
+}
+ header {
+  display: flex;
+}
